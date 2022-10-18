@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(197, 234, 236);
+  font-family: Arial;
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+}
+.header-container {
+  display: flex;
+  background-color: rgb(58, 80, 117);
+  color: #ffff;
+}
+
+.login-area {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 100vh;
+  font-size: 14px;
+  margin: 20px 20px 0 100px;
+}
+.login-area > div.login-input {
+  margin: 10px;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+input {
+  margin-top: 5px;
+  padding: 5px 0 5px 5px;
+  border: none;
+}
+.login-input > a,
+p {
+  font-size: 14px;
+  color: #ffff;
+  filter: opacity(60%);
+  text-decoration: none;
+}
+.login-input > button {
+  color: #ffff;
+  background-color: rgb(83, 112, 167);
+  margin-top: 23px;
+  padding: 5px 8px;
+  border: 0;
+}
